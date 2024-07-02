@@ -12,4 +12,4 @@ git push origin master
 git push origin master -f
 
 #shell command or playbook 
-"{{ range(1, 51) | map('regex_replace', '(.+)', 'user\\1') | list }}"   -> create 1to51 create any this 
+"{{ range(1, 51) | map('regex_replace', '(.+)', 'user\\1') | list }}"   -> create 1to51 create any this but create in arrays ways [user1, user2, user3 user4]
