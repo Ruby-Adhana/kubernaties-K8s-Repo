@@ -4,12 +4,13 @@ AllowRoot=true    <--this row  No. 17
 
 sudo gedit /etc/pam.d/gdm-password
 # <command 3 row >
+apt install vim -y
 
 #install sshd server
 apt install openssh-server -y
-apt install vim -y
 apt install apache2 -y
 apt install firewalld -y
+apt upgrade -y
 apt update -y
 
 # premission allow for root access 
