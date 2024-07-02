@@ -1,5 +1,6 @@
 # mulitips inside Directory create command 
 mkdir -p gullu/tarun/{suman,gujjar,adhana/{haryana,faridabad,tigaon/{lehandola,mndh}}}
+
 # Git 
 git config --global user.name "Ruby-Adhana"
 git config --global user.email "rubyadhana500@gmail.com"
@@ -9,3 +10,6 @@ git remote -v
 git remote add origin <repo url>
 git push origin master
 git push origin master -f
+
+#shell command or playbook 
+"{{ range(1, 51) | map('regex_replace', '(.+)', 'user\\1') | list }}"   -> create 1to51 create any this 
