@@ -16,4 +16,6 @@ apt update -y
 vim /etc/ssh/sshd_config
 # 33 and 57 row
 
-# give Root access in sudoers 
+# give sudoers power
+vim /etc/sudoers
+# 44 
